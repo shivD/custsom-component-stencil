@@ -1,0 +1,27 @@
+:host {
+  display: block;
+}
+.my-btn {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+.my-btn-primary {
+  background: var(--primary);
+  border: 1px var(--primary);
+  color: #fff;
+  &:hover,
+  &:focus,
+  &:active {
+    opacity: 0.9;
+  }
+}
+.my-btn-secondary {
+  background: var(--secondary);
+  border: 1px var(--secondary);
+  color: #fff;
+  &:hover,
+  &:focus,
+  &:active {
+    opacity: 0.9;
+  }
+}
