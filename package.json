@@ -1,7 +1,7 @@
 {
-  "name": "ptg-my-button",
+  "name": "custsom-component-stencil",
   "version": "0.0.1",
-  "description": "ptg-stencil",
+  "description": " custom element stencill component",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "es2015": "dist/esm/index.mjs",
@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "@stencil/core": "^2.13.0",
+    "custsom-component-stencil": "^0.0.1",
     "my-component": "^0.0.0",
     "node-sass": "^7.0.1",
     "ptg-my-button": "^0.0.1",

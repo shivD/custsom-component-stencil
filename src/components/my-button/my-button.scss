@@ -25,3 +25,23 @@
     opacity: 0.9;
   }
 }
+.my-btn-warning {
+  background: var(--warning);
+  border: 1px var(--warning);
+  color: #fff;
+  &:hover,
+  &:focus,
+  &:active {
+    opacity: 0.9;
+  }
+}
+.my-btn-success {
+  background: var(--success);
+  border: 1px var(--success);
+  color: #fff;
+  &:hover,
+  &:focus,
+  &:active {
+    opacity: 0.9;
+  }
+}
